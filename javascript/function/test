@@ -1,0 +1,22 @@
+<html>
+
+<script>
+
+function add (a, b) {
+    let result = a+b;
+    return result;
+}
+
+console.log(add(3, 2));
+
+var fruit = [];
+
+function addfruit(a) {
+    fruit.push(a);
+}
+addfruit('Apple')
+console.log(fruit);
+
+</script>
+
+</html>
