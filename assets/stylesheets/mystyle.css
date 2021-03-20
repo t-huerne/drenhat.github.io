@@ -1,0 +1,66 @@
+body {
+    background-color: #ff4a1b;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 90px;
+    color: #fcfc4c;
+}
+
+h2 {
+    font-weight: 500;
+    padding: 30px 10px 10px 10px;
+    color: white;
+    font-size: 35px;
+}
+.row {
+    padding-top: 73px;
+}
+
+.col {
+    margin: 180px 100px 200px 100px;
+}
+
+.title {
+    padding-top: 0px;
+}
+
+.name {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.intro_text {
+    padding: 10px 10px 10px 10px;
+    color: white; 
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.d-block w-100 {
+    height: 200px;
+    width: auto;
+}
+
+.caroussel_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pLinks {
+   text-decoration: none;
+   color: white; 
+}
+
+.pLinks:hover {
+    text-decoration: none;
+    color: #fcfc4c;
+    transition: 0.3s;
+    font-weight: 500; 
+}
+
