@@ -96,6 +96,16 @@ h2 {
     color: #ff4a1b;
 }
 
+/*Video in the home page*/
+
+.video .container-fluid {
+    background-color: #ff4a1b;
+}
+
+.embed-responsive-item {
+    text-align: center;
+}
+
 /*About me section*/
 
 .about_me {
@@ -123,13 +133,6 @@ h2 {
     border-radius: 50%;
 }
 
-.embed-responsive .embed-responsive-16by9 {
-    max-width: 500px;
-    width:100%;
-    max-height: 500px;
-    height:100%;
-    
-}
 
 /*Bus project section*/
 
@@ -143,4 +146,45 @@ h2 {
 .eye {
     background-color: #ff4a1b;
     margin-top: 2%;
+}
+
+/*contact*/
+
+.contact-form {
+    text-align: left;
+    font-size: 30px;
+    margin: 4% 20%;
+    display: flex;
+}
+
+#fs-frm-inputs {
+    vertical-align: top;
+}
+
+#fs-frm {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.9);
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#full-name {
+    width: 100%;
+}
+
+#email-address {
+    width: 100%;
+}
+
+#message {
+    width: 100%;  
+}
+
+.contact-form .col{
+    margin: 10% 0 5% 0;
+}
+
+.contact-form label {
+    display: block;
+    vertical-align: top;
 }
