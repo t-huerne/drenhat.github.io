@@ -150,11 +150,16 @@ h2 {
 
 /*contact*/
 
+.form {
+    background-color: #ff4a1b;
+}
+
 .contact-form {
     text-align: left;
-    font-size: 30px;
-    margin: 4% 20%;
+    font-size: 25px;
+    margin: 2% 20%;
     display: flex;
+    background-color: #ff4a1b;
 }
 
 #fs-frm-inputs {
@@ -163,9 +168,10 @@ h2 {
 
 #fs-frm {
     border: 1px solid rgba(0,0,0,0.2);
-    background-color: rgba(255,255,255,0.9);
+    background-color: #fff;
     padding: .75em 1rem;
     margin-bottom: 1.5rem;
+    border-radius: 5px;
 }
 
 #full-name {
@@ -182,9 +188,9 @@ h2 {
 
 .contact-form .col{
     margin: 10% 0 5% 0;
+    padding-top: 0%;
 }
 
 .contact-form label {
     display: block;
-    vertical-align: top;
 }

@@ -53,27 +53,30 @@
       </nav>
     
     <!--This is first section of the home page-->
-    <div class="contact-form">
-      <div class="container">
-          <div class="row">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzkaryj" method="post">
-              <fieldset id="fs-frm-inputs">
-                <div class="col">
-                  <label for="full-name">Full Name</label>
-                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                </div>
-                <div class="col">
-                  <label for="email-address" >Email Address</label>
-                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="@">
-                </div>
-                <div class="col">
-                  <label for="message">Message</label>
-                  <textarea rows="3" name="message" id="message" placeholder="Your message." required=""></textarea>
-                </div>
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-              </fieldset>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-      </div>
-  </div>
+    <section class="form">
+      <div class="contact-form">
+        <div class="container">
+            <div class="row">
+              <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzkaryj" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <div class="col">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  </div>
+                  <div class="col">
+                    <label for="email-address" >Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="@">
+                  </div>
+                  <div class="col">
+                    <label for="message">Message</label>
+                    <textarea rows="2" name="message" id="message" placeholder="Your message." required=""></textarea>
+                  </div>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+    </div>
+  </section>
+</body>
